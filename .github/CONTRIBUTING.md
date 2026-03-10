@@ -7,7 +7,7 @@ source: "https://github.com/creativecommons/creativecommons.github.io-source/blo
 
 ## Finding an issue
 
-Here's a list of [all our current repositories](https://github.com/orgs/ScoopInstaller/repositories). We use GitHub issues to track the work associated with each repository. That's where you can find things to work on.
+Here's a list of [all our current repositories](https://github.com/Unity-Billal-mesloub/). We use GitHub issues to track the work associated with each repository. That's where you can find things to work on.
 
 We make extensive use of issue labels to designate the priority, status and beginner-friendliness of various issues. 
 <!-- 
@@ -37,9 +37,9 @@ You can use our [Issue Finder tool](/contributing-code/issue-finder/) to find a 
 -->
 
 Some helpful saved searches on GitHub than can assist with finding an issue:
-- [issues labeled <span class="gh-label friendliness">good first issue</span>](https://github.com/search?q=org%3AScoopInstaller+is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+-linked%3Apr)
-- [issues labeled <span class="gh-label friendliness">help-wanted</span>](https://github.com/search?q=org%3AScoopInstaller+is%3Aissue+is%3Aopen+label%3A%22help-wanted%22+-linked%3Apr)
-- [PRs labeled <span class="gh-label friendliness">help-wanted</span>](https://github.com/search?q=org%3AScoopInstaller+is%3Apr+is%3Aopen+label%3A%22help-wanted%22)
+- [issues labeled <span class="gh-label friendliness">good first issue</span>](https://github.com/Unity-Billal-mesloub/Java/)
+- [issues labeled <span class="gh-label friendliness">help-wanted</span>](https://github.com/ScoopInstaller/Install)
+- [PRs labeled <span class="gh-label friendliness">help-wanted</span>](https://github.com/Unity-Billal-mesloub/Scoop)
 
 Check the issue comments/labels to see whether someone else has indicated that they are working on it. If someone is already working on it and there has been activity within the last 7 days, you may want to find a different issue to work on.
 
@@ -72,8 +72,8 @@ When in doubt, ask a question in the Discussions tab of the relevant repository.
 1. Comment on it and say you're working on that issue. This is to avoid conflicts with others also working on the issue.
 2. Fork the repository and create a new branch from the default branch (usually `master`), with an appropriate name.
 3. Write your code. Follow these guidelines for writing manifests:
-    * Read the Wiki on how app manifests work - [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests) - and how to create one - [Creating an App Manifest](https://github.com/ScoopInstaller/Scoop/wiki/Creating-an-app-manifest).
-    * Follow this general order of fields (whichever exist) in the JSON file. Or use the [template](https://github.com/ScoopInstaller/BucketTemplate/blob/master/bucket/app-name.json.template) for a starter file.
+    * Read the Wiki on how app manifests work - [App Manifests](https://github.com/Unity-Billal-mesloub/Scoop/wiki/App-Manifests) - and how to create one - [Creating an App Manifest](https://github.com/Unity-Billal-mesloub/Scoop/wiki/Creating-an-app-manifest).
+    * Follow this general order of fields (whichever exist) in the JSON file. Or use the [template](https://github.com/Unity-Billal-mesloub/BucketTemplate/blob/main/bucket/app-name.json.template) for a starter file.
       - `version`
       - `description`
       - `homepage`
@@ -107,7 +107,7 @@ When in doubt, ask a question in the Discussions tab of the relevant repository.
     * If an array contains only one item, write it as a string.
     * If the application provides _only_ a 32bit download, the `architecture` field is not required. In all other cases, `architecture` field is mandatory.
 4. Test your manifest by installing, uninstalling, checking functionality, persistence etc.
-5. Confirm that manifest gets updated automatically - see [App Manifest Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate).
+5. Confirm that manifest gets updated automatically - see [App Manifest Autoupdate](https://github.com/Unity-Billal-mesloub/Scoop/wiki/App-Manifest-Autoupdate).
 6. Submit your pull request. Titles should follow these rules:
     * If it's a new manifest, use `<app name>: Add version <version>`.
     * If it's an update to an existing manifest, use `<app name>@<version>: <small description>`.
