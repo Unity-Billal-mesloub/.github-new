@@ -1,6 +1,6 @@
 ---
 name: "Contribution Guidelines"
-about: "We do all of our development [on GitHub](https://github.com/ScoopInstaller/). If you are not familiar with GitHub or pull requests, [here is an excellent guide to get started](https://guides.github.com/activities/hello-world/)."
+about: "We do all of our development [on GitHub](https://github.com/Unity-Billal-mesloub/). If you are not familiar with GitHub or pull requests, [here is an excellent guide to get started](https://docs.github.com/en/get-started/start-your-journey/hello-world/)."
 title: "Contribution Guidelines"
 source: "https://github.com/creativecommons/creativecommons.github.io-source/blob/master/content/contributing-code/contents.lr"
 ---
